@@ -1,4 +1,4 @@
-@use "function" as *;
+@use "functions" as *;
 
 // Миксин для адаптивного размера текста между $min и $max
 @mixin fluid-text($max: 48, $min: 14) {
