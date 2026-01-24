@@ -1,0 +1,20 @@
+root{
+  --color-black: #0E0E0E;
+  --color-text-base: #151515;
+  --color-light-gray: #F1F1F1;
+  --color-dark-gray: #222222;
+  --color-bright-coral: #FC501F;
+  --color-vibrant-orange: #FF4C0D;
+  --color-golden-orange: #FC7C1F;
+
+  --border-radius-standart: 15px;
+
+  --solid-width: 3px;
+
+  --solid-higth-xxxl: 260px;
+  --solid-higth-xxl: 150px;
+  --solid-higth-xl: 100px;
+
+  --bar: var(--solid-width) solid var(--color-vibrant-orange)
+}
+
