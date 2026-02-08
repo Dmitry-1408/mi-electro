@@ -1,12 +1,13 @@
-import { Head } from "minista"
+
+export const metadata = {
+  title: 'dark',
+  isHeaderFixed: true,
+}
 
 export default function () {
   return (
     <>
-      <Head>
-        <title>Hello!</title>
-      </Head>
-      <h1>Hello!</h1>
+      <h1>Hello world!</h1>
     </>
   )
 }
