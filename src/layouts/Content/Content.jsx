@@ -9,7 +9,7 @@ const Content = (props) => {
     <div
       className={classNames(className, 'content')}
     >
-<h1>Content</h1>
+      <h1>Content</h1>
     </div>
   )
 }

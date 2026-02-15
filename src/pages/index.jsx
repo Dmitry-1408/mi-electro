@@ -1,13 +1,13 @@
-
 export const metadata = {
-  title: 'dark',
+  title: 'Dark',
   isHeaderFixed: true,
 }
 
 export default function () {
   return (
     <>
-      <h1>Hello world!</h1>
+
+
     </>
   )
 }

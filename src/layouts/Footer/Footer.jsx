@@ -9,7 +9,7 @@ const Footer = (props) => {
     <div
       className={classNames(className, 'footer')}
     >
-      Footer
+      <h3>Footer</h3>
     </div>
   )
 }

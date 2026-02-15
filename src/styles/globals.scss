@@ -14,7 +14,7 @@ html {
     выстраивать дочерние элементы по вертикали.
     Элементы внутри body располагаются в колонку (сверху вниз). */
 body {
-  //@include fluid-text(18, 14);
+  @include fluid-text(18, 14);
 
   display: flex;
   flex-direction: column;
@@ -35,7 +35,7 @@ h3, .h3,
 h4, .h4,
 h5, .h5,
 h6, .h6 {
-  //color: var(--color-white);
+  color: var(--color-text-base);
 }
 
 h1, .h1 {
