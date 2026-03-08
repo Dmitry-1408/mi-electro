@@ -1,0 +1,33 @@
+.button {
+  padding: 0 35px 0 35px;
+  width: max-content;
+  height: 55px;
+  font-weight: 700;
+  user-select: none;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+  &--color-light-gray {
+    background-color: var(--color-light-gray);
+    color: var(--color-text-base);
+
+    &:hover {
+      color: var(--color-golden-orange);
+    }
+  }
+
+  &--color-vibrant-orange {
+    background-color: var(--color-vibrant-orange);
+
+    &:hover {
+      color: var(--color-black);
+    }
+  }
+
+  &__label {
+    font-size: 16px;
+  }
+}
