@@ -1,5 +1,6 @@
 import Test from "@/components/Test";
 import Button from "@/components/Button";
+import SegmentedControl from "@/components/SegmentedControl";
 
 export const metadata = {
   title: 'Dark',
@@ -10,19 +11,12 @@ export default function () {
   return (
     <>
       <Test title='Button'>
-        <Button
-          href='/'
-          label='Купить'
-          mode='color-vibrant-orange'
-        />
+        <SegmentedControl />
       </Test>
 
       <Test title='Test2'>
-        <Button
-          href='/'
-          label='Задать вопрос'
-          mode='color-light-gray'
-        />
+
+
       </Test>
 
       <Test title='Test3' />
