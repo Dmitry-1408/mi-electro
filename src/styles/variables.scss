@@ -7,12 +7,21 @@
   --color-vibrant-orange: #FF4C0D;
   --color-golden-orange: #FC7C1F;
 
-  --gradient-coral-orange: #FF783C59;
+  // для темного фона
+  --gradient-coral-orange: rgba(255, 67, 60, 0.35);
   --gradient-hot-orange: #FF5A2866;
   --gradient-warm-terracotta: #FF8C4640;
   --gradient-charcoal-black: #0c0c0f;
   --gradient-raven-black: #1a1a1f;
   --gradient-pitch-black: #0a0a0d;
+
+  // для светлого фона
+  --gradient-coral-orange-white: #FF433C7A;
+  --gradient-hot-orange-white: #FF41287A;
+  --gradient-warm-terracotta-white: #FF684670;
+  --gradient-soft-pink: #FFFFF61A;
+  --gradient-light-pink: #F9EEFF29;
+  --gradient-pale-pink: #A8869712;
 
   --border-radius-standart: 15px;
 

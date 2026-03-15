@@ -6,11 +6,11 @@ const Footer = (props) => {
     className,
   } = props
   return (
-    <div
+    <footer
       className={classNames(className, 'footer')}
     >
       <h3>Footer</h3>
-    </div>
+    </footer>
   )
 }
 

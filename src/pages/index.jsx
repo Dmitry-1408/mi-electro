@@ -15,7 +15,7 @@ export default function () {
       </Test>
 
       <Test title='Test2'>
-
+        <SegmentedControl />
 
       </Test>
 

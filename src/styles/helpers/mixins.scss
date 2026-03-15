@@ -91,8 +91,18 @@
   cursor: not-allowed;
 }
 
-// миксин для background
-@mixin gradient {
+// typography-dark
+@mixin typography-dark {
+  color: var(--color-light-gray);
+}
+
+// typography-light
+@mixin typography-light {
+  color: var(--color-vibrant-orange);
+}
+
+// темная тема
+@mixin dark-theme {
   background: radial-gradient(
       800px 600px at 20% 40%,
       var(--gradient-coral-orange),
@@ -114,6 +124,35 @@
       var(--gradient-raven-black) 40%,
       var(--gradient-pitch-black) 100%
   );
+  background-blend-mode: screen, screen, screen, normal;
+
+
+}
+
+// светлая тема
+@mixin light-theme {
+  background: radial-gradient(
+      800px 600px at 20% 40%,
+      var(--gradient-coral-orange-white),
+      transparent 60%
+  ),
+  radial-gradient(
+      700px 500px at 85% 15%,
+      var(--gradient-hot-orange-white),
+      transparent 60%
+  ),
+  radial-gradient(
+      900px 700px at 80% 80%,
+      var(--gradient-warm-terracotta-white),
+      transparent 60%
+  ),
+  linear-gradient(
+      135deg,
+      var(--gradient-soft-pink) 0%,
+      var(--gradient-light-pink) 40%,
+      var(--gradient-pale-pink) 100%
+  );
 
   background-blend-mode: screen, screen, screen, normal;
 }
+

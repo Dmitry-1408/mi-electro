@@ -6,11 +6,11 @@ const Header = (props) => {
     className,
   } = props
   return (
-    <div
+    <header
       className={classNames(className, 'header')}
     >
       <h2>Header</h2>
-    </div>
+    </header>
   )
 }
 
